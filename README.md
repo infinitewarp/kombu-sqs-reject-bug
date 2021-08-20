@@ -10,6 +10,8 @@ This is a major problem if you have multiple tasks being sent to the default `ce
 
 ## How to demonstrate this bug
 
+[This asciinema recording](https://asciinema.org/a/431428) follows all the same steps described below.
+
 1. Set up the environment
 
     1. `python -m venv .venv && source .venv/bin/activate`
