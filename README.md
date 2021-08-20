@@ -6,7 +6,7 @@ If a Celery worker tries to handle a task via SQS, but the underlying function f
 
 This is a major problem if you have multiple tasks being sent to the default `celery` queue. One bad task can crash the whole worker and stop later tasks from running.
 
-<!-- Probable fix is [kombu/pulls/TBD](https://github.com/celery/kombu/pulls/TBD). -->
+Probable fix is [kombu/pull/1372](https://github.com/celery/kombu/pull/1372).
 
 ## How to demonstrate this bug
 
